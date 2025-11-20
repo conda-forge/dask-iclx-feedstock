@@ -1,5 +1,5 @@
 {% set name = "dask-iclx" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dask_iclx-{{ version }}.tar.gz
-  sha256: 9767eb265ceb411b27e8b8a656a1ddb5a44a3cdc524692d675a700a2ec7b5141
+  sha256: db7c15fcbd15a5243725ffddd34fabfb8f0b00e28e26e78496b73f06f524f709
 
 build:
   noarch: python
